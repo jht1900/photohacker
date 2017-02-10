@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect width="500" height="200" style="fill: rgb(216, 216, 216);" bx:origin="0 0"/>
+  <rect transform="matrix(NaN, NaN, NaN, NaN, NaN, NaN)" style="fill: rgb(216, 216, 216);"/>
+  <rect transform="matrix(NaN, NaN, NaN, NaN, NaN, NaN)" style="fill: rgb(216, 216, 216);"/>
+</svg>

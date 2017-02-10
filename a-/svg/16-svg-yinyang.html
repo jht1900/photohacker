@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="padding: 10; margin: 10; background:#ccc;">
+
+<svg width="300" height="300" >
+<defs>
+  <clipPath id="cut-right">
+    <rect x="0" y="0" width="100" height="200" />
+  </clipPath>
+  <clipPath id="cut-left">
+    <rect x="100" y="0" width="100" height="200" />
+  </clipPath>
+</defs>
+
+<circle cx="100" cy="100" r="100"  />
+<circle cx="100" cy="100" r="98" clip-path="url(#cut-left)" fill="#fff"/>
+<circle cx="100" cy="50" r="50"  />
+<circle cx="100" cy="150" r="49" fill="#fff" />
+<circle cx="100" cy="150" r="10"  />
+<circle cx="100" cy="50" r="10" fill="#fff" />
+
+</svg>
+
+<!-- https://en.wikipedia.org/wiki/Yin_and_yang -->
+<!-- https://upload.wikimedia.org/wikipedia/commons/1/17/Yin_yang.svg -->
+<!-- The Traditional Chinese characters 陰 and 陽 for the words yīn and yáng
+ are both classified as radical-phonetic characters, -->
+<!--  Tàiyīn 太陰 "moon" and Tàiyáng 太陽 "sun". -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="466" height="466">
+	<circle cx="233" cy="233" r="231"/>
+	<path d="M 233,459 a 226 226 0 0 1 0,-452 a 113 113 0 0 1 0,226 z" fill="#fff"/>
+	<circle cx="233" cy="346" r="113" fill="#000"/>
+	<circle cx="233" cy="120" r="30"/>
+	<circle cx="233" cy="346" r="30" fill="#fff"/>
+</svg>
+
+</body>
+</html>

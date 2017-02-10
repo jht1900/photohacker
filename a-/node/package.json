@@ -1,0 +1,15 @@
+{
+  "name": "Cloud",
+  "title": "",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "John Henry Thompson",
+  "dependencies": {
+    "jimp": "^0.2.27"
+  },
+  "devDependencies": {},
+  "repository": {},
+  "private": true,
+  "license": "ISC"
+}
