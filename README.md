@@ -13,7 +13,7 @@ INSTRUCTOR: John Henry Thompson
 
  - April 6 / April 13 / April 20 / April 27  
 
-![at scribe.org](http://scribe.org/events/youth-learn-hackers-take-control-your-photos)
+[at scribe.org](http://scribe.org/events/youth-learn-hackers-take-control-your-photos)
 
 # Tools
 - Terminal -- in Application/Utilities folder
