@@ -1,20 +1,22 @@
 # photohacker
-Learn from the hackers - take control of your photos. Use hacker tools to manipulate your photo library.
+Learn from the hackers! Take control of your photos using hacker tools to manipulate your photo library.
 
 ![jht facebook](a-/img/facebook.png)
 
-# Workshop at scribe.org, Apr 6 2017
+# Workshop at Scribe Video Center, April 6-27 2017
 ## Creating and sharing photos using hacker tools
-A hacker uses code to make the computer go beyond the ordinary. Get creative control over your photos using hacker tools. Using the latest free open source software tools, John Henry Thompson will guide participants in the art of automated photo composition. Participants will learn to arrange photos into a collage, overlaying text on a set of photos, apply visual filters to photos, and publish to the web. No coding experience required. Work with sample code provided by Thompson.
+A hacker uses code to make the computer go beyond the ordinary. Get creative control over your photos using hacker tools. Using the latest free open source software tools, John Henry Thompson will guide participants in the art of automated photo composition. Participants will learn to arrange photos into a collage, overlay text on a set of photos, apply visual filters to photos, and publish to the web. No coding experience required. Work with sample code provided by Thompson.
 
 INSTRUCTOR: John Henry Thompson
 
-4 Thursday Sessions 4:30 PM – 6:30 PM 
+4 Thursday Sessions 4:30 PM – 6:30 PM
+
 – April 6
-- April 13, 
-- April 20, 
+- April 13
+- April 20
 - April 27  
 
+at scribe.org
 
 # Tools
 - Terminal -- in Application/Utilities folder
