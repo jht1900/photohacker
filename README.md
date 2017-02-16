@@ -5,11 +5,15 @@ Learn from the hackers - take control of your photos. Use hacker tools to manipu
 
 # Workshop at scribe.org, Apr 6 2017
 ## Creating and sharing photos using hacker tools
-A hacker uses code to make the computer go beyond the ordinary. Get creative control over your photos using hacker tools. Using the latest free open source software tools, John Henry Thompson, will guide participants in the art of automated composition of photos to arrange photos into a collage and overlaying text on a set of photos to publish to the web. No coding experience required. Work with sample code provided by Thompson.
+A hacker uses code to make the computer go beyond the ordinary. Get creative control over your photos using hacker tools. Using the latest free open source software tools, John Henry Thompson will guide participants in the art of automated photo composition. Participants will learn to arrange photos into a collage, overlaying text on a set of photos, apply visual filters to photos, and publish to the web. No coding experience required. Work with sample code provided by Thompson.
 
 INSTRUCTOR: John Henry Thompson
 
-4 Thursday Sessions 4:30 PM – 6:30 PM – April 6, April 13, April 20, April 27 –  
+4 Thursday Sessions 4:30 PM – 6:30 PM 
+– April 6
+- April 13, 
+- April 20, 
+- April 27  
 
 
 # Tools
