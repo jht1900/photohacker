@@ -6,6 +6,8 @@ cd /Users/jht/Desktop/photohacker
 rm -rf .git
 git init
 git add .
-git commit -m 'Initial commit'
+git commit -m 'Day zero'
 git remote add origin https://github.com/jht1900/photohacker.git
 git push --force
+
+git push --set-upstream origin master
