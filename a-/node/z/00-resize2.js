@@ -1,7 +1,7 @@
 
 var jimp = require("jimp");
 
-var infile = '../z-in/cloud1.jpg';
+var infile = '../z-in/cloud1x.jpg';
 var outfile = '../z-out/00-resize.jpg';
 
 // Resize input photo
@@ -10,18 +10,16 @@ function phack_img(img) {
 	img.quality(60);    // set JPEG quality
 	img.greyscale();     // set greyscale
 
-	phack_write( img );
+	img.write(outfile);
 	console.log('open '+infile);
 	console.log('open '+outfile);
 }
 
 function phack_run() {
-	jimp.read(infile, function (err, img) {
-		if (err) throw err;
+	jimp.read(infile).then(function (img) {
 		phack_img(img);
+	}).catch(function (err) {
+		console.log(err);
 	});
-}
-function phack_write(img) {
-	img.write(outfile, function (err) { if (err) throw err; });
 }
 phack_run();

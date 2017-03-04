@@ -2,21 +2,24 @@
 var jimp = require("jimp");
 
 var infile = '../z-in/cloud1.jpg';
-var outfile = '../z-out/02-color.jpg';
+var outfile = '../z-out/04-bandn.jpg';
 
-// Draw to color bands across input photo
+// Draw a number of bans of color selected from photo
 function phack_img(img) {
 	var width = img.bitmap.width;
 	var height = img.bitmap.height;
-	console.log(infile+' width='+width+' height='+height);
 	var cwidth = width;
-	var cheight = 64;
-	var cimg = new jimp(cwidth, cheight, 0xFF0000FF); // Red band
-	img.blit( cimg, 0, 0);
-	cimg = new jimp(cwidth, cheight, 0x00FF00FF); // Green band
-	img.blit( cimg, 0, cheight*2);
-	cimg = new jimp(cwidth, cheight, 0x0000FFFF); // Blue band
-	img.blit( cimg, 0, cheight*4);
+	var cheight = 16;
+	var cimg;
+	var pix;
+	var x = 0;
+	var y = 0;
+	for (; y < height; y += cheight*2) {
+		pix = img.getPixelColor(x+width/2, y);
+		console.log('x='+x+' y='+y+' pix='+pix.toString(16))
+		cimg = new jimp(cwidth, cheight, pix);
+		img.blit( cimg, x, y);
+	}
 
 	phack_write(img);
 	console.log('open '+outfile);

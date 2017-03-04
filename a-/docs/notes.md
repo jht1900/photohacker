@@ -1,4 +1,25 @@
 
+
+http://weeklyedit.com/timelapse-bash-script/
+
+--------------------------------------------------------------------------------
+
+1920 x 1080
+1280 × 720
+--------------------------------------------------------------------------------
+function phack_run() {
+	jimp.read(infile).then(function (img) {
+		phack_img(img);
+	}).catch(function (err) {
+		console.log(err);
+	});
+
+--------------------------------------------------------------------------------
+
+https://mattdesl.svbtle.com/generative-art-with-nodejs-and-canvas
+https://github.com/Automattic/node-canvas
+brew install pkg-config cairo pango libpng jpeg giflib
+
 http://photodemon.org
 -- windows only
 
