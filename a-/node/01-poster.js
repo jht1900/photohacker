@@ -2,14 +2,11 @@
 var jimp = require("jimp");
 
 var infile = '../z-in/cloud1.jpg';
-var outfile = '../z-out/00-resize.jpg';
+var outfile = '../z-out/01-poster.jpg';
 
 // Resize input photo
 function phack_img(img) {
-	img.resize(128, 128); 	// resize
-	img.quality(60);    // set JPEG quality
-	//img.greyscale();     // set greyscale
-
+	img.posterize(8);
 	phack_write( img );
 	console.log('open '+infile);
 	console.log('open '+outfile);
